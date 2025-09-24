@@ -12,23 +12,25 @@
     --background: #F3F3F3;
     --background-2: #E5E5E5;
     --hover: #7EB685;
-    --hover-2: #262626;
+    --hover-2: #464646;
 
     --ff-poppins: "Poppins", sans-serif;
     --ff-lato: "Lato", sans-serif;
     --fw-semi: 600;
     --fw-medium: 500;
 
-    --fs-h1: 2.5rem;
+    --fs-h1: 2.6rem;
     --fs-h2: 2rem;
     --fs-p: 1rem;
+
+    --px-2rem: 2rem;
 }
 
 h1 {
     font-family: var(--ff-poppins);
     font-size: var(--fs-h1);
-    line-height: 1.2;
-    color: var(--primary);
+    line-height: 1.1;
+    color: var(--title);
     font-weight: var(--fw-semi);
 }
 
@@ -48,6 +50,10 @@ p {
     font-weight: var(--fw-medium);
 }
 
+ul[role="list"] {
+    list-style: none;
+}
+
 @media (width >= 80em) {
     :root {
         --fs-h1: 3rem;
@@ -55,6 +61,6 @@ p {
     }
 
     h1 {
-        line-height: 1.1;
+        line-height: 1.2;
     }
 }

@@ -1,0 +1,17 @@
+.btn {
+    text-decoration: none;
+    font-family: var(--ff-lato);
+    font-size: var(--fs-p);
+    line-height: 1.5;
+    color: var(--title-alt);
+    font-weight: var(--fw-semi);
+    background-color: var(--primary);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: fit-content;
+
+    &:hover {
+        background-color: var(--hover);
+        cursor: pointer;
+    }
+}

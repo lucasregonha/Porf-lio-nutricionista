@@ -1,0 +1,30 @@
+header {
+    background-color: var(--title-alt);
+
+    & .container {
+        padding-block: 1.5rem;
+    }
+
+    & nav {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    & img {
+        width: 6.8125rem;
+        margin-right: auto;
+    }
+
+    & a {
+        text-decoration: none;
+        font-family: var(--ff-lato);
+        font-size: var(--fs-p);
+        line-height: 1.5;
+        color: var(--title);
+        font-weight: var(--fw-medium);
+
+        &:hover {
+            color: var(--primary);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+#about {
+    background-color: var(--background);
+
+    & p {
+        margin-top: .75rem;
+    }
+
+    & .container div:nth-child(1) {
+        padding-block: 4rem;
+    }
+
+    & .separator {
+        height: 1px;
+        margin-block: 2.5rem;
+        background-color: var(--primary);
+    }
+
+    & img:hover {
+        cursor: pointer;
+    }
+}
