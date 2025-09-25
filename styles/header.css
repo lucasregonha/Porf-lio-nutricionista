@@ -11,7 +11,7 @@ header {
     }
 
     & img {
-        width: 6.8125rem;
+        width: 4.25rem;
         margin-right: auto;
     }
 
@@ -26,5 +26,12 @@ header {
         &:hover {
             color: var(--primary);
         }
+    }
+}
+
+@media (width >= 80rem) {
+    header img {
+        width: 6.8125rem;
+        margin-right: auto;
     }
 }

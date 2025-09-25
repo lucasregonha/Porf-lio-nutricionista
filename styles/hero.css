@@ -3,7 +3,7 @@
     
     background-image: url(../assets/background.svg);
     background-repeat: no-repeat;
-    background-position: right -26rem bottom -23rem;
+    background-position: right -20rem bottom -23rem;
 
     background-size: 58rem 40rem;
 
@@ -19,21 +19,39 @@
         margin-top: 1rem;
     }
 
-    & div + img {
-        margin-top: 1.25rem;
+    & img {
+        padding-top: 1.25rem;
         height: 100%;
         width: 100%;
         display: block;
+        bottom: 0;
     }
 }
 
 @media (width >= 80rem) {
 
+    #hero {
+        background-position: calc(50% + 25rem) calc(50% + 7rem);
+        background-size: 55rem 55rem;
+    }
+
     #hero .container {
-        height: 35rem;
+        align-items: center;
+
+        height: 40rem;
+        position: relative;
 
         & div:nth-child(1) {
             max-width: 35rem;
+        }
+
+        & img {
+            position: absolute;
+            height: 38rem;
+            width: 40rem;
+            display: block;
+            bottom: 0;
+            right: 0;
         }
     }
 }
