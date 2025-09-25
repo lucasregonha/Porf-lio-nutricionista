@@ -3,7 +3,7 @@
     
     background-image: url(../assets/background.svg);
     background-repeat: no-repeat;
-    background-position: calc(50% + 0rem) calc(50% + 25rem);
+    background-position: calc(50% - 2rem) calc(50% + 25rem);
 
     background-size: 58rem 40rem;
 
@@ -30,7 +30,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
     #hero {
-        background-position: calc(50% + 0rem) calc(50% + 20rem);
+        background-position: calc(50% - 2rem) calc(50% + 20rem);
         background-size: 55rem 55rem;
 
         & img {
