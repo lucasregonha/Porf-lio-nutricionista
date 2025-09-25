@@ -3,7 +3,7 @@
     
     background-image: url(../assets/background.svg);
     background-repeat: no-repeat;
-    background-position: right -20rem bottom -23rem;
+    background-position: calc(50% + 0rem) calc(50% + 25rem);
 
     background-size: 58rem 40rem;
 
