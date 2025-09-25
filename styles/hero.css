@@ -28,6 +28,23 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
+    #hero {
+        background-position: calc(50% + 0rem) calc(50% + 20rem);
+        background-size: 55rem 55rem;
+
+        & img {
+            width: 30rem;
+            height: 30rem;
+            margin: auto;
+        }
+
+        #hero .container {
+            height: 40rem;
+        }
+    }
+}
+
 @media (width >= 80rem) {
 
     #hero {
