@@ -31,9 +31,17 @@
     align-items: center;
 }
 
+.desktop-only {
+    display: none;
+}
+
 @media (width >= 80em) {
     .container {
         --max-width: 80rem;
         padding-inline: 2rem;
+    }
+
+    .desktop-only {
+        display: initial;
     }
 }
